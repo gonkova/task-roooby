@@ -15,7 +15,7 @@ const Integration = () => {
                 </div>
                 <div className="flex flex-wrap justify-center w-full   ">
                     <div className="bg-white  rounded-md flex justify-center w-120 h-120 transform scale-90 cursor-pointer">
-                        <img src="images/icon-3.png" alt="" className="bg-white rounded-md w-full h-full p-6" />
+                        <img src="images/icon-8.png" alt="" className="bg-white rounded-md w-full h-full p-6" />
                     </div>
                     <div className="bg-white  rounded-md flex justify-center w-288 h-120 transform scale-90 cursor-pointer">
                         <img src="images/hubspot.png" alt="" className="bg-white rounded-md w-full h-full p-14  " />

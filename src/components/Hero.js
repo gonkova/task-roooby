@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
                 <div className="text-gray-700 text-center  py-2  md:w-1/2 flex justify-end ">
                     <div >
-                        <img src="images/image.png" alt="" className="w-full h-auto rounded-lg transition-transform ease-in-out md:mt-16" />
+                        <img src="images/image-hero.png" alt="" className="w-full h-auto rounded-lg transition-transform ease-in-out md:mt-16" />
                     </div>
                 </div>
             </div>
