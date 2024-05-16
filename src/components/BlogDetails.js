@@ -59,8 +59,8 @@ const BlogDetails = () => {
                     <div>
                         <hr className=" my-4 border-gray" />
                         <h2 className="text-xl md:text-2xl text-left font-bold mt-4 mb-6  leading-tight">
-                            'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident'
+                        &ldquo;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident&ldquo;
                         </h2>
                         <div className='flex flex-row justify-between'>
                             <p className="text-black text-sm md:text-lg font-bold mb-6">
@@ -80,7 +80,7 @@ const BlogDetails = () => {
                         </h2>
                         <div className='flex flex-row justify-between'>
                             <p className="text-black text-sm md:text-lg font-bold mb-6">
-                                In order to fully answer the question <span className="italic">'What is a sales funnel?'</span>, we need
+                                In order to fully answer the question  &ldquo;What is a sales funnel?&ldquo;, we need
                                 to tackle the different steps of the funnel. While different organizations
                                 have their own ways of managing and naming the sales process and customer touchpoints,
                                 these are usually structured into three distinct stages.

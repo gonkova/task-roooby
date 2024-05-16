@@ -8,7 +8,7 @@ const BlogService = () => {
         <div className=" flex flex-col justify-around  w-80 mx-auto lg:w-1/2">
         <div>
         <hr className="  border-gray " />
-            <div class="text-gray mt-6 ">SERVICE</div>
+            <div className="text-gray mt-6 ">SERVICE</div>
             <h2 className="text-3xl md:text-4xl text-left font-bold pt-4 mb-6 md:mb-36 leading-tight">
             The 2024 State of Marketing &amp; Trends Report: Data from 1400+ Global Marketers
             </h2>
