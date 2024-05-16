@@ -10,7 +10,6 @@ const BlogDetails = () => {
             <div class="text-gray ml-5 ">SERVICE</div>
             <div className=" flex flex-col w-full ">
                 <div className=" p-20 w-full ">
-
                     <hr className=" my-4 border-gray" />
                     <h2 className="text-2xl md:text-3xl text-left font-bold mt-4 mb-6  leading-tight">
                         The Psychology of Short-Form Content: Why We Love Bite
@@ -18,7 +17,6 @@ const BlogDetails = () => {
                     <p className="text-black text-sm md:text-lg font-bold mb-6">
                         <span> 05 Sep 2024,</span><span className='text-gray ml-2'> by Joshua Nash</span>
                     </p>
-
                     <img
                         src="images/blog-details.png"
                         alt="Изображение"
@@ -70,7 +68,6 @@ const BlogDetails = () => {
                             </p>
                         </div>
                     </div>
-
                     <div>
                         <hr className=" my-4 border-gray" />
                         <img
@@ -122,7 +119,7 @@ const BlogDetails = () => {
                                         Brandon Shaw
                                     </p>
                                     <p className="text-silver mb-1">
-                                        Founder & CEO
+                                        Founder  &amp; CEO
                                     </p>
                                 </div>
                                 <div className='flex pl-64 gap-6 pb-5 '>

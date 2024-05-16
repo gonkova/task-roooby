@@ -8,7 +8,7 @@ const BusinessInfo = () => {
                 <div className=" text-center px-4 mt-24 mb-28 ">
                     <div className="flex flex-col justify-center md:flex-row md:justify-between items-center text-white mb-2 ">
                         <h2 className="text-3xl md:text-5xl font-bold text-center md:text-left">
-                            Here's how Roooby can
+                            Here&apos;s how Roooby can
                             <br />
                             benefit your business
                         </h2>

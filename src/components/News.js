@@ -6,7 +6,7 @@ const News = () => {
         <div className="container mx-auto py-8  px-8 bg-white ">
             <div className='flex flex-col  md:flex-row md:justify-between mt-8 md:mt-24'>
                 <h1 className=" text-xl md:text-6xl font-bold md:mb-16">
-                    What’s new at Roooby?
+                    What&apos;s new at Roooby?
                 </h1>
                 <button className="flex items-center space-x-2  text-black  hover:text-white hover:bg-blue   px-4 rounded-lg h-8 mt-10 mb-8 md:mb-16">
                     <span className='text-lg '>See all</span>

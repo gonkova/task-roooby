@@ -15,7 +15,7 @@ const Hero = () => {
                         </h1>
 
                         <p className='text-custom1 text-[16px] text-bold text-left mt-4 mb-10'>
-                            An awesome & powerful tool for your business, increase business,<br />
+                            An awesome &amp; powerful tool for your business, increase business,<br />
                             revenue with enterprise-grade links <br />
                             built to acquire and engage customers.
                         </p>

@@ -23,7 +23,7 @@ const Results = () => {
                 <div className="lg:w-2/3">
                     <p className="text-black text-xl md:text-3xl mb-8">
                         Using Кирилица CRM is one of the best
-                        decisions we’ve ever made. We’ve seen our annual revenue explode, and the
+                        decisions we&apos;ve ever made. We&apos;ve seen our annual revenue explode, and the
                         outlook just keeps getting sunnier.
                     </p>
                     <div className='flex  items-center space-x-2'>
@@ -33,7 +33,7 @@ const Results = () => {
                                 Nellie Foster
                             </p>
                             <p className="text-silver mb-1">
-                                Founder & CEO, Foster Business Strategi
+                                Founder &amp; CEO, Foster Business Strategi
                             </p>
                         </div>
                     </div>
@@ -51,8 +51,8 @@ const Results = () => {
                 </div>
                 <div className="lg:w-2/3">
                     <p className="text-black text-xl md:text-3xl mb-8">
-                        Yoora is created for sales people. It’s the kind of software that just works.
-                        I don’t have to try to make it work. It already does. It’s just perfect.
+                        Yoora is created for sales people. It&apos;s the kind of software that just works.
+                        I don&apos;t have to try to make it work. It already does. It&apos;s just perfect.
                     </p>
                     <div className='flex  items-center space-x-2'>
                         <img src="/images/lawrence.png" alt="Image" className="w-14 h-auto" />
@@ -61,7 +61,7 @@ const Results = () => {
                                 Lawrence Gibbs
                             </p>
                             <p className="text-silver mb-1">
-                                Founder & CEO, Foster Business Strategi
+                                Founder &amp; CEO, Foster Business Strategi
                             </p>
                         </div>
                     </div>

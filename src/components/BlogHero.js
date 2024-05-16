@@ -7,9 +7,6 @@ const BlogHero = () => {
         }
     ];
 
-
-
-
     return (
         <>
             <div className="flex flex-col md:flex-row bg-bgcustom w-full mx-auto ">
@@ -21,7 +18,6 @@ const BlogHero = () => {
                             <span className='text-gray'>from our experts</span>
                         </h1>
                     </div>
-
                     {sections.map((section, index) => (
                         <div key={index} className='p-5'>
                             <ul className='flex md:flex-row md:justify-around md:-ml-12 flex-col md:flex-wrap'>
@@ -29,12 +25,9 @@ const BlogHero = () => {
                                     <li key={i} className='text-black text-md pb-4 font-semibold cursor-pointer hover:underline underline-offset-8 decoration-2 decoration-green md:w-auto w-full md:px-2 text-center'>{item}</li>
                                 ))}
                             </ul>
-
                         </div>
                     ))}
-
                 </div>
-
             </div>
         </>
     );

@@ -20,7 +20,7 @@ const Marketing = () => {
                         className="w-full h-auto rounded-lg transition-transform ease-in-out mt-4 absolute z-0 lg:max-w-full lg:max-h-full"
                     />
                     <div className='flex flex-col md:flex-row w-80 h-28 mx-auto md:justify-center md:space-x-4 md:items-center bg-blue text-white md:w-4/5 rounded-lg md:h-20 absolute z-10 md:ml-14 mt-64 md:mt-96 '>
-                        <p className=" text-center mt-3 md:mt-0  mb-3 md:mb-0 md:text-l">Automate your sales & marketing</p>
+                        <p className=" text-center mt-3 md:mt-0  mb-3 md:mb-0 md:text-l">Automate your sales &amp; marketing</p>
                         <Button className='bg-green mx-8 md:mx-0 text-l hover:bg-custom3 hover:text-blue rounded-lg md:py-4 mb-24 md:mb-0'>Start now</Button>
                     </div>
                 </div>

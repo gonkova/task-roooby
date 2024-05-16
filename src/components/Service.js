@@ -19,7 +19,7 @@ const Service = () => {
                     </h2>
                     <p className="w-4/5 mt-8 text-lg ">
                         Great customer support separates decent companies
-                        from excellent companies. A positive customer support
+                        from excellent companies. A positive customer support &amp;
                         experience is a crucially important piece of the customer journey.
                     </p>
                     <ul className="mt-2">

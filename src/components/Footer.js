@@ -40,8 +40,7 @@ const Footer = () => {
                             sales and marketing solution for SMBs
                         </p>
                         <div className='flex ml-16 md:ml-0 gap-6 pb-5'>
-                        <FaTwitter className='text-twitter text-2xl cursor-pointer transform hover:scale-150' />
-
+                            <FaTwitter className='text-twitter text-2xl cursor-pointer transform hover:scale-150' />
                             <FaFacebook className='text-facebook  text-2xl cursor-pointer transform hover:scale-150' />
                             <FaLinkedin className='text-linkedin text-2xl cursor-pointer transform hover:scale-150' />
                         </div>
@@ -62,7 +61,7 @@ const Footer = () => {
             <hr className=" md:mt-10 mx-12 border-gray" />
             <div className='bg-white h-1/2 w-full flex flex-col md:flex-row  justify-around items-center md:items-start p-6'>
                 <div className='p-5'>
-                    <h1 className='text-gray font-semibold'>© Copyright 2024</h1>
+                    <h1 className='text-gray font-semibold'>&copy; Copyright 2024</h1>
                 </div>
                 <div className='p-5'>
                     <p className='text-black text-l'>Terms of Service</p>
