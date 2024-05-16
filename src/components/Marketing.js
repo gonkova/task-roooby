@@ -32,11 +32,11 @@ const Marketing = () => {
                     </h2>
                     <p className="w-10/12 mt-8 text-lg ">
                         Market like the most successful companies
-                        in the world with Agile CRM's marketing automation software.
+                        in the world with Agile CRM&apos;s marketing automation software.
                     </p>
                     <ul className="mt-2">
                         {MARKETING_ITEMS.map((item, index) => (
-                            <li className='w-11/12 flex items-left text-custom1 text-lg   pt-2'>
+                            <li key={index} className='w-11/12 flex items-left text-custom1 text-lg   pt-2'>
                                 <span className="text-green mr-2">&#10003;</span>
                                 <span className="text-left">{item.description}</span>
                             </li>

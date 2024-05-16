@@ -12,12 +12,12 @@ const BlogPosts = () => {
     return (
         <div className="container mx-auto mt-12 p-10 bg-white">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ">
-                {posts.map((post, index) => {
+                {posts.map((post) => {
                     const postPhoto = photos.find(photo => photo.id === post.id);
 
                     return (
-                        <Link href={`/blog/${post.slug}`}>
-                            <div key={index} className="mx-auto">
+                        <Link key={post.id} href={`/blog/${post.slug}`}>
+                            <div className="mx-auto">
                                 <div className="w-24 h-8 text-gray text-sm font-bold -mb-3">{post.category || defaultCategory}</div>
                                 <hr className="my-4 mb-6 border-gray" />
                                 {postPhoto && (
@@ -35,7 +35,6 @@ const BlogPosts = () => {
                                 </p>
                             </div>
                         </Link>
-
                     );
                 })}
             </div>

@@ -24,7 +24,7 @@ const Service = () => {
                     </p>
                     <ul className="mt-2">
                         {SERVICE_ITEMS.map((item, index) => (
-                            <li className='w-4/5 flex items-left text-custom1 text-lg pt-2'>
+                            <li key={index} className='w-4/5 flex items-left text-custom1 text-lg pt-2'>
                                 <span className="text-green mr-2">&#10003;</span>
                                 <span className="text-left">{item.description}</span>
                             </li>
