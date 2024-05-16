@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 const BlogDetails = () => {
     return (
         <div className="container mx-auto py-8 px-4 sm:px-8">
-            <div class="text-gray ml-5 ">SERVICE</div>
+            <div className="text-gray ml-5 ">SERVICE</div>
             <div className=" flex flex-col w-full ">
                 <div className=" p-20 w-full ">
                     <hr className=" my-4 border-gray" />
@@ -52,15 +52,15 @@ const BlogDetails = () => {
                                 voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
                                 suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
                                 iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
-                                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                             </p>
                         </div>
                     </div>
                     <div>
                         <hr className=" my-4 border-gray" />
                         <h2 className="text-xl md:text-2xl text-left font-bold mt-4 mb-6  leading-tight">
-                            “At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident”
+                            'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                            deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident'
                         </h2>
                         <div className='flex flex-row justify-between'>
                             <p className="text-black text-sm md:text-lg font-bold mb-6">
@@ -80,11 +80,12 @@ const BlogDetails = () => {
                         </h2>
                         <div className='flex flex-row justify-between'>
                             <p className="text-black text-sm md:text-lg font-bold mb-6">
-                                In order to fully answer the question “What is a sales funnel?”, we need
+                                In order to fully answer the question <span className="italic">'What is a sales funnel?'</span>, we need
                                 to tackle the different steps of the funnel. While different organizations
                                 have their own ways of managing and naming the sales process and customer touchpoints,
                                 these are usually structured into three distinct stages.
                             </p>
+
                         </div>
                         <div>
                             <h2 className="text-xl md:text-2xl text-left font-bold mt-4 mb-6  leading-tight">
@@ -107,7 +108,7 @@ const BlogDetails = () => {
                                 voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
                                 suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
                                 iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
-                                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                             </p>
                         </div>
                         <hr className=" my-4 border-gray" />
@@ -119,7 +120,7 @@ const BlogDetails = () => {
                                         Brandon Shaw
                                     </p>
                                     <p className="text-silver mb-1">
-                                        Founder  &amp; CEO
+                                        Founder &amp; CEO
                                     </p>
                                 </div>
                                 <div className='flex pl-64 gap-6 pb-5 '>
