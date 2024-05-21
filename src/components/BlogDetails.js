@@ -4,9 +4,12 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
+
+
 const BlogDetails = () => {
     return (
         <div className="container mx-auto py-8 px-4 sm:px-8">
+            
             <div className="text-gray ml-5 ">SERVICE</div>
             <div className=" flex flex-col w-full ">
                 <div className=" p-20 w-full ">
@@ -134,6 +137,7 @@ const BlogDetails = () => {
                     </div>
                 </div>
             </div>
+          
         </div>
     )
 }

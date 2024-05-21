@@ -1,11 +1,51 @@
 'use client';
-import { useAppContext } from "@/context";
-import React, { useState, useContext } from 'react';
-
+import React, { useState } from 'react';
 
 const FirstBlogCategory = () => {
-
-    const { firstBlogPosts } = useAppContext();
+    const [firstBlogPosts, setFirstBlogPosts] = useState([
+        {
+            category: 'NEWS',
+            imageSrc: 'images/joshua-post.png',
+            title: 'Learn from My Mistakes: 7 Digital Course Pitfalls to Skip',
+            date: '29 Jun 2024',
+            author: 'Joshua Nash'
+        },
+        {
+            category: 'SALES',
+            imageSrc: 'images/bill-post.png',
+            title: 'How To Do Representation in Marketing the Right Way',
+            date: '20 Mar 2022',
+            author: 'Bill Holloway'
+        },
+        {
+            category: 'SALES',
+            imageSrc: 'images/stephen-post.png',
+            title: 'The Psychology of Short-Form Content: Why We Love...',
+            date: '07 Jun 2024',
+            author: 'Stephen Henderson'
+        },
+        {
+            category: 'SALES',
+            imageSrc: 'images/nash-post.png',
+            title: 'The Challenger Sale model: How to lead the conversation',
+            date: '09 Jan 2024',
+            author: 'by Joshua Nash'
+        },
+        {
+            category: 'PRODUCT',
+            imageSrc: 'images/leroy-post.png',
+            title: '3 ways To automate your lead generation process',
+            date: '08 Jul 2024',
+            author: ' by Leroy Figueroa'
+        },
+        {
+            category: 'PRODUCT',
+            imageSrc: 'images/jn-post.png',
+            title: 'Marketplace Monthly Apps Spotlight: Aug 2023',
+            date: '05 Aug 2024',
+            author: 'by Joshua Nash'
+        },
+    ]);
 
     return (
         <div className="container mx-auto p-10 bg-white md:mb-6">

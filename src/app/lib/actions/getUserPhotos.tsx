@@ -1,7 +1,8 @@
 'use server';
-export async function getComments() {
+export async function getUserPhotos(id) {
+   
     try {
-        let response = await fetch('http://jsonplaceholder.typicode.com/comments?_limit=10');
+        let response = await fetch(`https://jsonplaceholder.typicode.com/photos?userId=${id}`);
         let data = await response.json();
         return data;
     }catch (e: any) {

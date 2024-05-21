@@ -1,11 +1,30 @@
 'use client';
-import { useAppContext } from "@/context";
-import React, { useState, useContext } from 'react';
-
+import React, { useState } from 'react';
 
 const SecondBlogCategory = () => {
-
-    const { secondBlogPosts } = useAppContext();
+    const [secondBlogPosts, setSecondBlogPost] = useState([
+        {
+            category: 'SERVICE',
+            imageSrc: 'images/edith-post.png',
+            title: 'Sales Funnels: Definition, Process, Stages and Examples',
+            date: '01 Dec 2022',
+            author: 'by Edith Rose'
+        },
+        {
+            category: 'SALES',
+            imageSrc: 'images/amanda-post.png',
+            title: 'What is a sales and how do you build one?',
+            date: '29 Mar 2022',
+            author: 'by Amanda Brooks'
+        },
+        {
+            category: 'SERVICE',
+            imageSrc: 'images/roxie-post.png',
+            title: '10 real estate cold calling scripts to increase lead',
+            date: '27 Dec 2022',
+            author: 'by Roxie Sandoval'
+        }
+    ]);
 
     return (
         <div className="container mx-auto p-10 bg-white md:mb-28">
