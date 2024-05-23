@@ -1,10 +1,15 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useAppContext } from '@/context';
 import PostList from '@/components/PostList';
 
 export default function UsersPage() {
     const { posts, photos, currentPage, totalPages, handleNextPage, handlePreviousPage } = useAppContext();
+
+    useEffect(() => {
+     
+        handleNextPage();
+    }, []);
 
     return (
         <PostList
