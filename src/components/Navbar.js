@@ -7,7 +7,6 @@ import Button from '../components/Button';
 const Navbar = () => {
 
     const MENU_ITEMS = [
-
         { link: '/', title: 'Product' },
         { link: '/pricing', title: 'Pricing' },
         { link: '/company', title: 'Company' },

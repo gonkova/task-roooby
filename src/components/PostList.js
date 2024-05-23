@@ -39,7 +39,6 @@ const PostList = ({ posts, photos, currentPage, totalPages, handleNextPage, hand
                 <button onClick={handleNextPage} disabled={currentPage === totalPages} className="btn">
                     Next page
                 </button>
-
             </div>
         </div>
     );

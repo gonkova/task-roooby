@@ -11,6 +11,7 @@ import PostList from '@/components/PostList';
 export default function Blog() {
     const { posts, photos, currentPage, totalPages, handleNextPage, handlePreviousPage } = useAppContext();
 
+
     return (
         <>
             <BlogHero />

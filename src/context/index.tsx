@@ -1,4 +1,5 @@
 'use client';
+
 import React, { createContext, useState, useEffect, useContext, ReactNode } from 'react';
 import { getUsers } from '@/app/lib/actions/getUsers';
 import { getUserPosts } from '@/app/lib/actions/getUserPosts';
@@ -7,14 +8,13 @@ import { getUserPhotos } from '@/app/lib/actions/getUserPhotos';
 interface Post {
     id: number;
     title: string;
-    imageSrc: string; 
+    imageSrc: string;
 }
 
 interface Photo {
     id: number;
     thumbnailUrl: string;
 }
-
 
 interface AppContextType {
     posts: Post[];
@@ -25,7 +25,6 @@ interface AppContextType {
     handlePreviousPage: () => void;
 }
 
-
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export function AppWrapper({ children }: { children: ReactNode }) {
@@ -33,7 +32,8 @@ export function AppWrapper({ children }: { children: ReactNode }) {
     const [currentPage, setCurrentPage] = useState(1);
     const [posts, setPosts] = useState<Post[]>([]);
     const [photos, setPhotos] = useState<Photo[]>([]);
-    const [totalPages, setTotalPages] = useState(0);
+    const [totalPages, setTotalPages] = useState(1);
+
     const pageSize = 10;
 
     useEffect(() => {

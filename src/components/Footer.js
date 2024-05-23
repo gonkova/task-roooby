@@ -3,7 +3,7 @@ import React from 'react';
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import Translation from './Тranslation';
+import Translation from './Translation';
 
 
 const Footer = () => {
