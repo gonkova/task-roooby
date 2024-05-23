@@ -32,7 +32,7 @@ export function AppWrapper({ children }: { children: ReactNode }) {
     const [currentPage, setCurrentPage] = useState(1);
     const [posts, setPosts] = useState<Post[]>([]);
     const [photos, setPhotos] = useState<Photo[]>([]);
-    const [totalPages, setTotalPages] = useState(1);
+    const [totalPages, setTotalPages] = useState(10);
 
     const pageSize = 10;
 
