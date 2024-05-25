@@ -5,7 +5,7 @@ const BusinessInfo = () => {
     return (
         <div className="w-full flex flex-col items-center justify-center bg-blue space-x-4">
             <div className="container mx-auto md:py-8 px-4 sm:px-8">
-                <div className=" text-center px-4 mt-24 mb-28 ">
+                <div className="text-center px-4 mt-24 mb-28 ">
                     <div className="flex flex-col justify-center md:flex-row md:justify-between items-center text-white mb-2 ">
                         <h2 className="text-3xl md:text-5xl font-bold text-center md:text-left">
                             Here&apos;s how Roooby can
@@ -36,7 +36,7 @@ const BusinessInfo = () => {
                         </p>
                     </div>
                     <div className="group w-full md:w-1/3 p-6 rounded-md bg-custom2 hover:bg-custom3 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-                        <img src="images/icon-1.png" alt="" className="w-auto h-17 mx-2 mt-14 group-hover:invert" />
+                        <img src="images/icon-1.svg" alt="" className="w-auto h-17 mx-2 mt-14 group-hover:invert" />
                         <hr className="my-4 border-white mt-16 group-hover:border-black" />
                         <h2 className="text-white text-xl  font-semibold mb-2 group-hover:text-black">
                             Support your support
@@ -48,7 +48,7 @@ const BusinessInfo = () => {
                         </p>
                     </div>
                     <div className="group w-full md:w-1/3 p-6 rounded-md bg-custom2 hover:bg-custom3 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-                        <img src="images/icon-2.png" alt="" className="w-auto h-17 mx-2 mt-12 group-hover:invert" />
+                        <img src="images/icon-2.svg" alt="" className="w-auto h-17 mx-2 mt-12 group-hover:invert" />
                         <hr className="my-4 border-white mt-14 group-hover:border-black" />
                         <h2 className="text-white text-xl  font-semibold mb-2 group-hover:text-black">
                             Grow without growing pains

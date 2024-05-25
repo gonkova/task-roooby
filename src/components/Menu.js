@@ -22,7 +22,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='bg-bgcustom '>
+        <nav className='bg-bgcustom'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between h-16'>
                     <div className='flex items-center'>
@@ -33,7 +33,7 @@ const Navbar = () => {
                                 </div>
                             </Link>
                         </div>
-                        <div className='hidden md:flex items-center  ml-24 mr-6'>
+                        <div className='hidden md:flex items-center ml-24 mr-6'>
                             {MENU_ITEMS.map((item, index) => (
                                 <Link key={index} href={item.link}>
                                     <div className='font-semibold text-custom1 hover:text-blue p-2 ml-10 cursor-pointer hover:underline underline-offset-8 decoration-2 decoration-blue'>
@@ -44,35 +44,42 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='hidden md:flex items-center space-x-4'>
-                        <button className="bg-white text-custom1  border border-silver text-xs text-center font-bold py-2 px-8  rounded whitespace-nowrap  hover:text-green-700 hover:text-lg hover:underline ">
+                        <button className="bg-white text-custom1 border border-silver text-xs text-center font-bold py-2 px-8 rounded whitespace-nowrap hover:text-green-700 hover:text-lg hover:underline">
                             Log in
                         </button>
-                        <Button className='hover:bg-custom3 hover:text-blue text-xs ' >
+                        <Button className='hover:bg-custom3 hover:text-blue text-xs'>
                             Try for Free
                         </Button>
                     </div>
-                    <div className='md:hidden   flex items-center'>
+                    <div className='md:hidden flex items-center'>
                         <button className='inline-flex items-center justify-center p-2 rounded-md text-white md:text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white' onClick={toggleNavbar}>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="black" className="w-10 h-10">
-                                {isClick ? (
+                            {isClick ? (
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="black" className="w-10 h-10">
                                     <path fillRule="evenodd" d="M6 8.707l5.146-5.147a1 1 0 011.415 1.414L7.414 10l5.147 5.146a1 1 0 11-1.415 1.415L6 11.414l-5.146 5.147a1 1 0 11-1.415-1.415L4.586 10 1.44 6.854a1 1 0 111.415-1.414L6 8.707z" clipRule="evenodd" />
-                                ) : (
+                                </svg>
+                            ) : (
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="black" className="w-10 h-10">
                                     <path fillRule="evenodd" d="M3 9a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM4 5a1 1 0 100 2h12a1 1 0 100-2H4zm12 6a1 1 0 110 2H7a1 1 0 110-2h9z" clipRule="evenodd" />
-                                )}
-                            </svg>
+                                </svg>
+                            )}
                         </button>
                     </div>
                 </div>
             </div>
             {isClick && (
-                <div className='md:hidden pl-10  inset-0 flex flex-col items-center justify-center w-full h-[80vh] '>
+                <div className='md:hidden fixed inset-0 bg-bgcustom flex flex-col items-center justify-center w-full h-full z-50'>
+                    <button className='absolute top-4 right-4 p-2 rounded-md text-white md:text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white' onClick={toggleNavbar}>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="black" className="w-10 h-10">
+                            <path fillRule="evenodd" d="M6 8.707l5.146-5.147a1 1 0 011.415 1.414L7.414 10l5.147 5.146a1 1 0 11-1.415 1.415L6 11.414l-5.146 5.147a1 1 0 11-1.415-1.415L4.586 10 1.44 6.854a1 1 0 111.415-1.414L6 8.707z" clipRule="evenodd" />
+                        </svg>
+                    </button>
                     <div className='px-2 pt-2 pb-3 space-y-6 sm:px-3 flex flex-col'>
                         {MENU_ITEMS.map((item, index) => (
                             <Link key={index} href={item.link} onClick={closeNavbar}>
                                 <div className='text-3xl font-semibold text-custom1 hover:text-blue'>{item.title}</div>
                             </Link>
                         ))}
-                        <div className='space-y-12 pt-10'>
+                        <div className='pt-12 space-y-12'>
                             <button onClick={closeNavbar} className="w-60 text-2xl bg-white text-custom1 border border-silver text-center font-bold py-2 px-8 rounded">
                                 Log in
                             </button>

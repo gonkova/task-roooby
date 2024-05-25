@@ -13,38 +13,40 @@ const Integration = () => {
                         Expand the capabilities of <span className='font-bold'>Roooby</span> with hundreds of apps and integrations
                     </p>
                 </div>
-                <div className="flex flex-wrap justify-center w-full   ">
-                    <div className="bg-white  rounded-md flex justify-center w-120 h-120 transform scale-90 cursor-pointer">
-                        <img src="images/icon-8.png" alt="" className="bg-white rounded-md w-full h-full p-6" />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-288 h-120 transform scale-90 cursor-pointer">
-                        <img src="images/hubspot.png" alt="" className="bg-white rounded-md w-full h-full p-14  " />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-288 h-120 p-16 transform scale-90 cursor-pointer ">
-                        <img src="images/zoom.png" alt="" className="bg-white rounded-md w-full h-full" />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-120 h-120 p-10 transform scale-90 cursor-pointer">
-                        <img src="images/gogle-meet.png" alt="" className="bg-white rounded-md w-full h-full" />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-288 h-120 p-14 transform scale-90 cursor-pointer">
-                        <img src="images/zendesk.png" alt="" className="bg-white rounded-md w-full h-full" />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-372 h-120 p-16 transform scale-90 cursor-pointer">
-                        <img src="images/intercom.png" alt="" className="bg-white rounded-md w-full h-full" />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-120 h-120 p-14 transform scale-90 cursor-pointer">
-                        <img src="images/img-4.png" alt="" className="bg-white rounded-md w-full h-full" />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-120 h-120 p-12 transform scale-90 cursor-pointer">
-                        <img src="images/img-5.png" alt="" className="bg-white rounded-md w-full h-full" />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-372 h-120 p-16 transform scale-90 cursor-pointer">
-                        <img src="images/asana.png" alt="" className="bg-white rounded-md w-full h-full" />
-                    </div>
-                    <div className="bg-white  rounded-md flex justify-center w-120 h-120 p-12 transform scale-90 cursor-pointer">
-                        <img src="images/logo-6.png" alt="" className="bg-white rounded-md w-full h-full" />
-                    </div>
-                </div>
+                <div className="flex flex-wrap justify-center gap-4 w-full">
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[120px] h-[120px]">
+        <img src="images/icon-8.png" alt="" className="w-30 h-30 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[288px] h-[120px]">
+        <img src="images/hubspot.png" alt="" className="w-48 h-20 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[288px] h-[120px]">
+        <img src="images/zoom.png" alt="" className="w-48 h-20 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[120px] h-[120px]">
+        <img src="images/gogle-meet.png" alt="" className="w-20 h-20 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[288px] h-[120px]">
+        <img src="images/zendesk.png" alt="" className="w-48 h-20 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[372px] h-[120px]">
+        <img src="images/intercom.png" alt="" className="w-60 h-20 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[120px] h-[120px]">
+        <img src="images/img-4.png" alt="" className="w-20 h-20 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[120px] h-[120px]">
+        <img src="images/img-5.png" alt="" className="w-20 h-20 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[372px] h-[120px]">
+        <img src="images/asana.png" alt="" className="w-60 h-20 object-contain" />
+    </div>
+    <div className="bg-white rounded-md flex justify-center items-center cursor-pointer w-[120px] h-[120px]">
+        <img src="images/logo-6.png" alt="" className="w-20 h-20 object-contain" />
+    </div>
+</div>
+
+
                 <div className="flex justify-center pt-14 pb-20 md:pb-28">
                     <button className="flex items-center space-x-2 text-black hover:text-white hover:bg-blue py-2 px-4 rounded-lg">
                         <span className='text-center  text-lg'>

@@ -11,7 +11,7 @@ const Translation = () => {
 
     return (
         <div className='flex flex-row'>
-            <img src="./images/ic_language.png" alt="Language Icon" />
+            <img src="./images/ic_language.svg" alt="Language Icon" />
             <select className='bg-bgcustom' value={selectedLanguage} onChange={handleLanguageChange}>
                 <option value="">English</option>
                 <option value="English">English</option>
